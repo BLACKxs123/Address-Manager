@@ -1,0 +1,31 @@
+{
+  "contacts": [
+    {
+      "id": 1,
+      "name": "John",
+      "email": "john@gmail.com",
+      "phone": "0712345678",
+      "addressLine1": "CBD,Nairobi",
+      "addressLine2": "Kiambu, Kenya",
+      "additionalNotes": "None"
+    },
+    {
+      "id": 2,
+      "name": "Jane",
+      "email": "jame@gmail.com",
+      "phone": "0709876543",
+      "addressLine1": "Old Town,Mombasa",
+      "addressLine2": "Nairobi,Kenya",
+      "additionalNotes": "No permanent Residence"
+    },
+    {
+      "id": 3,
+      "name": "JAmes",
+      "email": "james@gmail.com",
+      "phone": "0764873793",
+      "addressLine1": "Kiambu ,Kenya",
+      "addressLine2": "Nairobi,Kenya",
+      "additionalNotes": "No permanent Residence"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Address Book Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Address Manager</h1>
+
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Name" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="tel" id="phone" placeholder="Phone">
+            <input type="text" id="address_line_1" placeholder="Address Line 1">
+            <input type="text" id="address_line_2" placeholder="Address Line 2">
+            <input type="text" id="additional_notes" placeholder="Additional Notes">
+            <button type="submit" id="addBtn">Add Contact</button>
+        </form>
+
+        <div id="contactsList"></div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
